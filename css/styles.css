@@ -32,13 +32,13 @@ main {
 .qrcode__container {
     background-color: var(--color-white);
     padding: 16px;
-    border-radius: 16px;
+    border-radius: 12px;
     width: 320px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
 .qrcode__image {
-    border-radius: 16px;
+    border-radius: 12px;
     overflow: hidden;
 }
 
@@ -56,7 +56,7 @@ main {
 
 .qrcode__description {
     text-align: center;
-    font-size: 16px;
+    font-size: 15px;
     padding: 0 1.1rem;
     margin-top: 15px;
     margin-bottom: 24px;
