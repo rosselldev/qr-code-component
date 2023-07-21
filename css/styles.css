@@ -40,7 +40,7 @@ main {
 .qrcode__image {
     border-radius: 9px;
     overflow: hidden;
-    margin-bottom: 24px;
+    margin-bottom: 23px;
 }
 
 .qrcode__image img {
@@ -55,12 +55,12 @@ main {
     font-size: 22px;
     text-align: center;
     color: var(--color-dark-blue);
-    margin-bottom: 16px;
+    margin-bottom: 17px;
 }
 
 .qrcode__description {
     text-align: center;
     font-size: 15px;
     padding: 0 15px;
-    margin-bottom: 21px;
+    margin-bottom: 23px;
 }
