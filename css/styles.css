@@ -32,32 +32,35 @@ main {
 .qrcode__container {
     background-color: var(--color-white);
     padding: 16px;
-    border-radius: 12px;
+    border-radius: 18px;
     width: 320px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
 .qrcode__image {
-    border-radius: 12px;
+    border-radius: 9px;
     overflow: hidden;
+    margin-bottom: 24px;
 }
 
 .qrcode__image img {
     width: 100%;
     height: 100%;
+    object-fit: cover;
+    object-position: center;
+    vertical-align: top; /*Para eliminar el pequeño espacio adicional agregado*/
 }
 
 .qrcode__title {
     font-size: 22px;
     text-align: center;
     color: var(--color-dark-blue);
-    margin-top: 20px;
+    margin-bottom: 16px;
 }
 
 .qrcode__description {
     text-align: center;
-    font-size: 15px;
-    padding: 0 1.1rem;
-    margin-top: 15px;
-    margin-bottom: 24px;
+    font-size: 16px;
+    padding: 0 15px;
+    margin-bottom: 21px;
 }
