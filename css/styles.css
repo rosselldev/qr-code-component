@@ -19,7 +19,7 @@ html {
 
 body {
     min-height: 100vh;
-    background-color: var(--color-grayish-blue);
+    background-color: var(--color-light-gray);
 }
 
 main {
@@ -56,7 +56,7 @@ main {
 
 .qrcode__description {
     text-align: center;
-    font-size: 15px;
+    font-size: 16px;
     padding: 0 1.1rem;
     margin-top: 15px;
     margin-bottom: 24px;
